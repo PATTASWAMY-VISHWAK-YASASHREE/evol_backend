@@ -30,6 +30,9 @@ Thumbs.db
 .env
 .env.local
 
+# Docker
+.dockerignore
+
 # Don't ignore generated embeddings (we want these in production)
 !celebrities_with_vectors.json
 !products_with_vectors.json
