@@ -409,6 +409,7 @@ async def get_recommendations(request: RecommendationRequest):
                 'id': rec['product']['id'],
                 'name': rec['product']['name'],
                 'price': rec['product']['price'],
+                'description': rec['product'].get('description', ''),
                 'category': rec['product']['category'],
                 'primary_style_tags': rec['product'].get('primary_style_tags', []),
                 'secondary_style_tags': rec['product'].get('secondary_style_tags', []),
