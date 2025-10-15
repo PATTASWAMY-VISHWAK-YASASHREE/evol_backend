@@ -27,7 +27,7 @@ COPY product_embeddings_metadata.json .
 COPY main.py .
 COPY recommender_engine.py .
 COPY style_taxonomy.py .
-COPY index.html .
+
 
 # Expose port (Cloud Run uses PORT env variable)
 EXPOSE 8080
